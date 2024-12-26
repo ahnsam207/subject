@@ -7,7 +7,7 @@ import os
 # SSL 인증서 경로 설정
 os.environ['SSL_CERT_FILE'] = certifi.where()
 
-st.title("🎓 KB 교과세특 작문 도우미")
+st.title("🎓 KB 교과세특")
 
 # API 키 입력
 api_key = st.secrets["api_key"]
