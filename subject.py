@@ -10,7 +10,7 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 st.title("🎓 KB 교과세특 작문 도우미")
 
 # API 키 입력
-api_key = st.text_input("Google API Key를 입력하세요", type="password")
+api_key = st.secrets["api_key"]
 
 if api_key:
     # 입력 필드 생성
